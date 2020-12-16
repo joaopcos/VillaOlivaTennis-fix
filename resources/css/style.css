@@ -7,8 +7,8 @@ body{
 	padding-top: 80px;
 }
 iframe{
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
 }
 .navbar{
     background-image: url(../../resources/images/back.jpg);
@@ -78,12 +78,8 @@ iframe{
     top: 40%;
 }
 .localizacao{
-    width: 350px;
-    height: 350px;
-}
-.localizacao2{
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
 }
 .acomodacoes{
     display: flex;
@@ -219,19 +215,11 @@ iframe{
         position: relative;
         top: 16px;
     }
-    .localizacao2{
-        width: 350px;
-        height: auto;
-    }
 }
 @media only screen and (max-width: 716px){
     .center2{
         position: relative;
         top: 16px;
-    }
-    .localizacao2{
-        width: 350px;
-        height: auto;
     }
     .blankspace{
         margin: 0;
