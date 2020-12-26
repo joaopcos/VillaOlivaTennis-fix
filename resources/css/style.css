@@ -62,9 +62,9 @@ iframe{
     object-fit: cover; 
     object-position: center;
 }
-.carousel-content-fit2{
-    width: 430px;
-    height: 510px; 
+.carousel-content-fit3{
+    width: 906px;
+    height: 530px; 
     object-fit: cover; 
     object-position: center;
     
@@ -202,13 +202,6 @@ iframe{
     .margin-footer{
         margin-bottom: 100px;
     }
-    .carousel-content-fit2{
-        width: 430px;
-        height: 470px; 
-        object-fit: cover; 
-        object-position: center;
-        
-    }
 }
 @media only screen and (max-width: 736px){
     .center2{
@@ -228,6 +221,12 @@ iframe{
         width: 75%;
     }
 }
+@media only screen and (max-width: 450px){
+    iframe{
+        width: 100%;
+        height: 400px;
+    }
+}
 @media only screen and (max-width: 414px){
     .ul{
         text-align: left;
@@ -238,28 +237,8 @@ iframe{
     .contato{
         width: 80%;
     }
-    .carousel-content-fit2{
-        width: 430px;
-        height: 500px; 
-        object-fit: cover; 
-        object-position: center;
-        
-    }
-}
-@media only screen and (max-width: 420px){
-    .carousel-content-fit2{
-        width: 390px;
-        height: 360px; 
-        object-fit: cover; 
-        object-position: center;
-        
-    }
 }
 @media only screen and (max-width: 290px){
-    iframe{
-        width: 290px;
-        height: 290px;
-    }
     .localizacao{
         width: 290px;
         height: auto;
