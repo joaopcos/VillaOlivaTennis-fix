@@ -7,7 +7,7 @@ body{
 	padding-top: 80px;
 }
 iframe{
-    width: 450px;
+    width: 100%;
     height: 450px;
 }
 .navbar{
@@ -78,7 +78,7 @@ iframe{
     top: 40%;
 }
 .localizacao{
-    width: 450px;
+    width: 100%;
     height: 450px;
 }
 .acomodacoes{
@@ -124,6 +124,19 @@ iframe{
 }
 .margin-footer{
     margin-bottom: 0px;
+}
+.galeria-content{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.galeria-thumb{
+	width: 360px;
+	height: 360px;
+	margin: 10px;
+	border-radius: 5px;
+    object-fit: cover; 
+    object-position: center;
 }
 @media only screen and (max-width: 991px){
     .carousel-content-fit{
@@ -237,10 +250,26 @@ iframe{
     .contato{
         width: 80%;
     }
+    .galeria-thumb{
+        width: 300px;
+        height: 300px;
+        margin: 5px;
+        border-radius: 5px;
+        object-fit: cover; 
+        object-position: center;
+    }
 }
 @media only screen and (max-width: 290px){
     .localizacao{
         width: 290px;
         height: auto;
+    }
+    .galeria-thumb{
+        width: 280px;
+        height: 280px;
+        margin: 5px;
+        border-radius: 5px;
+        object-fit: cover; 
+        object-position: center;
     }
 }
