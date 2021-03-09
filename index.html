@@ -198,19 +198,21 @@
             </section>
             <section class="center">
               <div class="contato">
+              <form action="contact-form.php" method="POST">
                 <div class="center blankspace">
-                  <input name="link" class="form-control input-lg" type="text" placeholder="Seu email:">
+                  <input id="email-contato" name="email-contato" class="form-control input-lg" type="text" placeholder="Seu email:">
                 </div>
                 <div class="center blankspace">
-                  <input name="link" class="form-control input-lg" type="text" placeholder="Seu nome:">
+                  <input id="nome-contato" name="nome-contato" class="form-control input-lg" type="text" placeholder="Seu nome:">
                 </div>
                 <div class="center blankspace">
-                  <textarea class="form-control input-lg" rows="4" placeholder="Mensagem:"></textarea>
+                  <textarea id="mensagem-contato" name="mensagem-contato" class="form-control input-lg" rows="4" placeholder="Mensagem:"></textarea>
                 </div>
                 <div class="margin-bottom"></div>
                 <div class="center blankspace">
-                  <button class="btn btn-success btn-lg">Enviar</button>
+                  <button type="submit" class="btn btn-success btn-lg">Enviar</button>
                 </div>
+              </form>
                 <div class="margin-bottom"></div>
                 <div class="center blankspace">
                   <div>
